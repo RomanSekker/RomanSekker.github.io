@@ -1,0 +1,312 @@
+@import url(reset.css);
+
+/*Резеновый сайт*/
+
+body {
+	font: 13px/1.4 Arial, Verdana, sans-serif;
+	background: url(../img/main-bg.jpg);
+	color: #5e5e5e;
+}
+
+p {
+	margin: 7px 0 13px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 18px;
+	line-height: 1.1;
+	margin: 0 0 6px 0;
+}
+
+/*Header*/
+.clear {
+	clear: both;
+}
+#header, #inner-menu, #wrapper, #middle_content, #bottom_content{
+	min-width: 960px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+#logo {
+	margin: 44px 0 42px 10px;
+	width: 241px;
+	height: 46px;
+	float: left;
+}
+
+#banner {
+	margin: 35px 10px 0 0;
+	width: 468px;
+	height: 60px;
+	float: right;
+	padding-right: 160px;
+}
+
+/*Nav*/
+
+#top-menu {
+	min-width: 960px;
+	height: 49px;
+	background: url(../img/bg-top-menu.png)repeat-x;
+}
+
+#inner-menu ul li {
+	float: left;
+	text-transform: uppercase;
+}
+#inner-menu a {
+	color: #ebebeb;
+	font-size: 12px;
+	padding: 16px 15px;
+	display: block;
+}
+
+#inner-menu a:hover {
+	background: url(../img/bg-menu-hover.png)repeat-x;
+	text-decoration: none;
+}
+
+/*Wrapper*/
+
+/*content*/
+#content {
+	margin-right: 310px;
+	padding: 15px 38px 0 10px;
+}
+
+.post {
+	border-bottom: 1px dashed #dddddd;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.thumbnail {
+	float: left;
+	margin-bottom: 15px;
+}
+
+.thumbnail img {
+	border: 3px solid #acacae;
+}
+
+.post-content {
+	margin-left: 180px;
+}
+
+.post-categories, .post-publiched {
+	font-family: Georgia, "Times New Roman", serif;
+	color: #bcbcbc;
+	margin: 0 0 3px 0;
+}
+
+/*sidebar*/
+#sidebar {
+	width: 300px;
+	float: right;
+	padding-right: 10px;
+}
+
+#sidebar h3 {
+	font-size: 15px;
+	color: #999999;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: url(../img/sidebar-h3-bg.png)repeat-x 0 6px;
+	padding-left: 22px;
+	margin: 24px 0;
+}
+
+#sidebar h3 span {
+	background: url(../img/main-bg.jpg);
+	padding: 0 7px;
+}
+
+#sidebar form {
+	width: 220px;
+	margin: 0 auto;
+}
+
+.text-field {
+	width: 140px;
+	height: 31px;
+	background: url(../img/input-bg.png);
+	float: left;
+}
+
+.text-field input {
+	background: none;
+	border: none;
+	font-size: 12px;
+	color: #b1b1b1;
+	padding: 8px 10px;
+	width: 120px;
+	height: 14px;
+}
+/*sponsors*/
+
+.first_row, .second_row {
+	width: 270px;
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+	display: block;
+}
+
+.right {
+	float: right;
+	display: block;
+}
+
+.second_row {
+	margin-top: 14px;
+}
+
+/*Catecories*/
+
+#categories ul {
+	width: 140px;
+}
+
+#categories ul li {
+	border-top: 1px dashed #e3e3e3;
+	padding: 9px 0;
+}
+
+#categories ul li:first-child {
+	border: none;
+}
+
+#categories ul li a {
+	font-weight: bold;
+}
+#categories h3 {
+	margin-bottom: 12px;
+}
+
+/*pagination*/
+
+#pagination {
+	margin: 33px 0;
+}
+#pagination ul {
+	overflow: hidden;
+}
+
+#pagination ul li {
+	float: left;
+	margin-right: 2px;
+}
+#pagination ul li a {
+	display: block;
+	padding: 9px 14px 6px 14px;
+	border-bottom: 3px solid #ccc;
+}
+
+#pagination ul li a:hover {
+	text-decoration: none;
+	background: #e7e7e7;
+}
+
+#pagination .current, #pagination .current:hover {
+	background: #333;
+	color: #fff;
+	border: none;
+	padding-bottom: 9px;
+}
+
+#pagination .next {
+	padding-bottom: 8px;
+	padding-top: 7px;
+}
+
+/*Footer*/
+#footer {
+	min-width: 960px;
+	color: #e0e0e0;
+}
+
+#footer_top {
+	background: url(../img/bg_footer_top.png) repeat-x;
+	height: 18px;
+}
+
+#footer_middle {
+	background: url(../img/bg_footer_middle.png);
+}
+
+#middle_content {
+	padding-bottom: 60px;
+}
+
+.footer_box {
+	padding-top: 55px;
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+
+#footer_box {
+	margin-right: 0;
+}
+
+#magazine {
+	background: url(../img/logo_footer.png) no-repeat 10px 0;
+	padding: 37px 0 0 10px;
+}
+
+#magazine p {
+	margin: 16px 0;
+}
+
+.footer_box h3 {
+	width: 220px;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: url(../img/bg_footer_h3.png)repeat-x 0 6px;
+	padding-bottom: 8px;
+}
+
+.footer_box h3 span {
+	background: url(../img/bg_footer_middle.png);
+	padding-right: 13px;
+}
+
+#archives {
+	padding-right: 10px;
+}
+
+#resent_post ul li, #archives ul li{
+	padding: 12px 0;
+	background: url(../img/bg_dashed.png) repeat-x left bottom;
+}
+
+#resent_post ul li a, #archives ul li a  {
+	color: #e0e0e0;
+}
+
+#footer_bottom {
+	background: url(../img/bg_footer_bottom.png) repeat-x;
+}
+
+#footer_bottom p {
+	margin: 0;
+	padding: 25px 10px ; 
+}
+
+#footer_bottom a {
+	color: #8f8f8f;
+}
