@@ -1,0 +1,5 @@
+cd C:\Users\admin\RomanSekker.github.io
+git add --all
+git status
+git commit -m "4 commit"
+git push origin master
