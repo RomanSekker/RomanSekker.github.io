@@ -1,34 +1,41 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
 <html lang="en">
+<!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
 	<title>Brides</title>
+	<meta name="description" content="Создание адаптивного сайта" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.min.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.green.min.css" />
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css">
-	 <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
 	<header>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-2">
+				<div class="col-md-3 col-lg-2">
 					<div class="logo">
 						<a href="#"><span><img src="img/header-logo.png" alt=""></span></a>
 						<a href="#" class="dating"><span>dating</span></a>
 						<a href="#"><span class="brides">Brides</span></a>
 					</div>
 				</div>
-				<div class="col-md-7">
+				<div class="col-md-5 col-lg-7">
 					<div class="top-menu">
 						<a href="#">Agency</a>
 						<a href="#">Ladies</a>
@@ -36,429 +43,1123 @@
 						<a href="#">Support</a>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-4 col-lg-3">
 					<div class="language-selector_wrap">
 						<div class="language-selector">
-							<div class="wrap-lang clearfix">
-								<span class="icon-lng"></span>
-								<span class="lang"><a href="#">English</a></span>
+							<div  class="wrap-lang active clearfix">
+								<div class="wrap-lang_main-lang">
+									<span class="icon-lng"></span>
+									<span class="lang"><a href="#">English</a></span>
+								</div>
 								<span class="arrow"></span>
 							</div>
+												
+							<div class="language-selector_focus">
+								<div class="wrap-lang clearfix">
+									<span class="icon-lng icon-german"></span>
+									<span class="lang"><a href="#">German</a></span>
+								</div>
+								<div class="wrap-lang clearfix">
+									<span class="icon-lng icon-spanish"></span>
+									<span class="lang"><a href="#">Spanish</a></span>
+								</div>
+								<div class="wrap-lang clearfix">
+									<span class="icon-lng icon-italian"></span>
+									<span class="lang"><a href="#">Italian</a></span>
+								</div>
+							</div>
+
 						</div>
-						<button class="header-btn">Sign In</button>
-						<div class="language-selector_focus">
-							<div class="wrap-lang clearfix">
-								<span class="icon-lng"></span>
-								<span class="lang"><a href="#">English</a></span>
-								<span class="arrow"></span>
-							</div>
-							<div class="wrap-lang clearfix">
-								<span class="icon-lng icon-german"></span>
-								<span class="lang"><a href="#">German</a></span>
-							</div>
-							<div class="wrap-lang clearfix">
-								<span class="icon-lng icon-spanish"></span>
-								<span class="lang"><a href="#">Spanish</a></span>
-							</div>
-							<div class="wrap-lang clearfix">
-								<span class="icon-lng icon-italian"></span>
-								<span class="lang"><a href="#">Italian</a></span>
-							</div>
-						</div>
+						<a href="#" class="header-link">Sign In</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
+
 	<section class="container-form">
 		<div class="container">
 			<div class="row">
-				<div class="wrap-form">
-					<div class="col-md-8">
-						<div class="form-logos">
-							<div class="col-md-6">
-								<div class="form-logos-wrap clearfix">
-									<p class="form-icon"></p>
-									<p class="form-text ">1000+ Accounts</p>
-									<p>Only real single ladies</p>
-								</div>
-								<div class="form-logos-wrap clearfix">
-									<p class="form-icon form-icon_ladies"></p>
-									<p class="form-text ">Only Real Ladies</p>
-									<p>from Ukraine & Russia</p>
-								</div>
+				<div class="col-md-7 col-lg-8">
+					<div class="form-logos">
+						<div class="col-md-6">
+							<div class="form-logos-wrap clearfix">
+								<p class="form-icon"></p>
+								<p class="form-text ">1000+ Accounts</p>
+								<p>Only real single ladies</p>
 							</div>
-							<div class="col-md-6">
-								<div class="form-logos-wrap clearfix">
-									<p class="form-icon form-icon_secure"></p>
-									<p class="form-text ">100% Secure</p>
-									<p>Highest protection of personal data</p>
-								</div>
-								<div class="form-logos-wrap clearfix">
-									<p class="form-icon form-icon_private"></p>
-									<p class="form-text ">100% Private</p>
-									<p>Highest level of security</p>
-								</div>
+							<div class="form-logos-wrap clearfix">
+								<p class="form-icon form-icon_ladies"></p>
+								<p class="form-text ">Only Real Ladies</p>
+								<p>from Ukraine & Russia</p>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-logos-wrap clearfix">
+								<p class="form-icon form-icon_secure"></p>
+								<p class="form-text ">100% Secure</p>
+								<p>Highest protection of personal data</p>
+							</div>
+							<div class="form-logos-wrap clearfix">
+								<p class="form-icon form-icon_private"></p>
+								<p class="form-text ">100% Private</p>
+								<p>Highest level of security</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<div class="main-form">
-							<h4>First time on Brides.dating?</h4>
-							<a href="#" class="fb-link">Sign In using Facebook</a>
-							<div class="mf-name clearfix">
-								<span class="mf-text">Name</span><input type="text" placeholder="John Doe">
-							</div>
-							<div class="mf-date clearfix">
-								<span class="mf-text clearfix">Birth<br>date</span>
-								<input type="text" placeholder="day">
-								<input type="text" placeholder="month" class="mf-date_m">
-								<input type="text" placeholder="year">
-							</div>
-							<div class="mf-name clearfix">
-								<span class="mf-text">Email</span><input type="text" placeholder="john@doe.com">
-							</div>
-							<div class="mf-name clearfix">
-								<span class="mf-text">Password</span><input type="password" placeholder="••••••">
-							</div>
-							<div class="mf-name clearfix">
-								<span class="mf-text mf-text_last">Repeat<br>Password</span><input type="password" placeholder="••••••">
-							</div>
-							<button class="mf-btn">Create New Account</button>
-							<div class="mf-terms">By continuing you agree<br>to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></div>
+				</div>
+				<div class="col-md-5 col-lg-4">
+					<div class="main-form">
+						<h4>First time on Brides.dating?</h4>
+						<a href="#" class="fb-link">Sign In using Facebook</a>
+						<div class="mf-name clearfix">
+							<span class="mf-text">Name</span><input type="text" placeholder="John Doe">
 						</div>
+						<div class="mf-date clearfix">
+							<div class="mf-text clearfix">Birth<br>date</div>
+							<div class="mf-date_day clearfix">
+								<span class="mf-date_arrow-top"></span>
+								<input type="text" placeholder="day">
+								<span class="mf-date_arrow-bottom"></span>
+							</div>
+							<div class="mf-date_month clearfix">
+								<span class="mf-date_arrow-top"></span>
+								<input type="text" placeholder="month" class="mf-date_m">
+								<span class="mf-date_arrow-bottom"></span>
+							</div>
+							<div class="mf-date_year clearfix">
+								<span class="mf-date_arrow-top"></span>
+								<input type="text" placeholder="year">
+								<span class="mf-date_arrow-bottom"></span>
+							</div>
+						</div>
+						<div class="mf-name clearfix">
+							<span class="mf-text">Email</span><input type="text" placeholder="john@doe.com">
+						</div>
+						<div class="mf-name clearfix">
+							<span class="mf-text">Password</span><input type="password" placeholder="••••••">
+						</div>
+						<div class="mf-name clearfix">
+							<span class="mf-text mf-text_last">Repeat<br>Password</span><input type="password" placeholder="••••••">
+						</div>
+						<button class="mf-btn">Create New Account</button>
+						<div class="mf-terms">By continuing you agree<br>to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
 	<section class="ladies-online">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<h3>Ladies Online</h3>
+				<h3>Ladies Online</h3>
+				<div class="owl-carousel">
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_2">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_3">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_4">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_2">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_3">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_4">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="ladies-avatar">
-						<div class="ladies-avatar_online">
-							<span>Online</span>
+
+
+				<!-- <div class="slider-container">
+					<div class="next_button"><span class="slider_arrow"></span></div>
+					<div class="prev_button"><span class="slider_arrow"></span></div>
+					<div class="ladies_online">
+						<div class="col-md-12">
+							<div class="ladies-container">
+								<div class="ladies-avatar">
+									<div class="ladies-avatar_online">
+										<span>Online</span>
+									</div>
+									<div class="ladies-avatar_view">
+										<a href="#">
+											<span class="ladies-avatar_view-icon"></span>
+											<span class="ladies-avatar_view-text">View Profile</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-nav">
+									<div class="ladies-nav_letter">
+										<a href="#">
+											<span class="ladies-nav_icon"></span>
+											<span class="ladies-nav_text">Letter</span>
+										</a>
+									</div>
+									<div class="ladies-nav_chat">
+										<a href="#">
+											<span class="ladies-nav_icon chat"></span>
+											<span class="ladies-nav_text">Chat</span>
+										</a>
+									</div>
+									<div class="ladies-nav_video">
+										<a href="#">
+											<span class="ladies-nav_icon video"></span>
+											<span class="ladies-nav_text">Video</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-profile">
+									<span class="ladies-profile_name">Anastasia
+										<span class="ladies-profile_status"></span>
+									</span>
+									<p>19 years, Kyiv</p>
+								</div>
+							</div>
 						</div>
-						<div class="ladies-avatar_view">
-							<a href="#">
-								<span class="ladies-avatar_view-icon"></span>
-								<span class="ladies-avatar_view-text">View Profile</span>
-							</a>
+						<div class="col-md-12">
+							<div class="ladies-container">
+								<div class="ladies-avatar ledy_2">
+									<div class="ladies-avatar_online">
+										<span>Online</span>
+									</div>
+									<div class="ladies-avatar_view">
+										<a href="#">
+											<span class="ladies-avatar_view-icon"></span>
+											<span class="ladies-avatar_view-text">View Profile</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-nav">
+									<div class="ladies-nav_letter">
+										<a href="#">
+											<span class="ladies-nav_icon"></span>
+											<span class="ladies-nav_text">Letter</span>
+										</a>
+									</div>
+									<div class="ladies-nav_chat">
+										<a href="#">
+											<span class="ladies-nav_icon chat"></span>
+											<span class="ladies-nav_text">Chat</span>
+										</a>
+									</div>
+									<div class="ladies-nav_video">
+										<a href="#">
+											<span class="ladies-nav_icon video"></span>
+											<span class="ladies-nav_text">Video</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-profile">
+									<span class="ladies-profile_name">Anastasia
+										<span class="ladies-profile_status"></span>
+									</span>
+									<p>19 years, Kyiv</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="ladies-container">
+								<div class="ladies-avatar ledy_3">
+									<div class="ladies-avatar_online">
+										<span>Online</span>
+									</div>
+									<div class="ladies-avatar_view">
+										<a href="#">
+											<span class="ladies-avatar_view-icon"></span>
+											<span class="ladies-avatar_view-text">View Profile</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-nav">
+									<div class="ladies-nav_letter">
+										<a href="#">
+											<span class="ladies-nav_icon"></span>
+											<span class="ladies-nav_text">Letter</span>
+										</a>
+									</div>
+									<div class="ladies-nav_chat">
+										<a href="#">
+											<span class="ladies-nav_icon chat"></span>
+											<span class="ladies-nav_text">Chat</span>
+										</a>
+									</div>
+									<div class="ladies-nav_video">
+										<a href="#">
+											<span class="ladies-nav_icon video"></span>
+											<span class="ladies-nav_text">Video</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-profile">
+									<span class="ladies-profile_name">Anastasia
+										<span class="ladies-profile_status"></span>
+									</span>
+									<p>19 years, Kyiv</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="ladies-container">
+								<div class="ladies-avatar ledy_4">
+									<div class="ladies-avatar_online">
+										<span>Online</span>
+									</div>
+									<div class="ladies-avatar_view">
+										<a href="#">
+											<span class="ladies-avatar_view-icon"></span>
+											<span class="ladies-avatar_view-text">View Profile</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-nav">
+									<div class="ladies-nav_letter">
+										<a href="#">
+											<span class="ladies-nav_icon"></span>
+											<span class="ladies-nav_text">Letter</span>
+										</a>
+									</div>
+									<div class="ladies-nav_chat">
+										<a href="#">
+											<span class="ladies-nav_icon chat"></span>
+											<span class="ladies-nav_text">Chat</span>
+										</a>
+									</div>
+									<div class="ladies-nav_video">
+										<a href="#">
+											<span class="ladies-nav_icon video"></span>
+											<span class="ladies-nav_text">Video</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-profile">
+									<span class="ladies-profile_name">Anastasia
+										<span class="ladies-profile_status"></span>
+									</span>
+									<p>19 years, Kyiv</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="ladies-container">
+								<div class="ladies-avatar">
+									<div class="ladies-avatar_online">
+										<span>Online</span>
+									</div>
+									<div class="ladies-avatar_view">
+										<a href="#">
+											<span class="ladies-avatar_view-icon"></span>
+											<span class="ladies-avatar_view-text">View Profile</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-nav">
+									<div class="ladies-nav_letter">
+										<a href="#">
+											<span class="ladies-nav_icon"></span>
+											<span class="ladies-nav_text">Letter</span>
+										</a>
+									</div>
+									<div class="ladies-nav_chat">
+										<a href="#">
+											<span class="ladies-nav_icon chat"></span>
+											<span class="ladies-nav_text">Chat</span>
+										</a>
+									</div>
+									<div class="ladies-nav_video">
+										<a href="#">
+											<span class="ladies-nav_icon video"></span>
+											<span class="ladies-nav_text">Video</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-profile">
+									<span class="ladies-profile_name">Anastasia
+										<span class="ladies-profile_status"></span>
+									</span>
+									<p>19 years, Kyiv</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="ladies-container">
+								<div class="ladies-avatar ledy_2">
+									<div class="ladies-avatar_online">
+										<span>Online</span>
+									</div>
+									<div class="ladies-avatar_view">
+										<a href="#">
+											<span class="ladies-avatar_view-icon"></span>
+											<span class="ladies-avatar_view-text">View Profile</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-nav">
+									<div class="ladies-nav_letter">
+										<a href="#">
+											<span class="ladies-nav_icon"></span>
+											<span class="ladies-nav_text">Letter</span>
+										</a>
+									</div>
+									<div class="ladies-nav_chat">
+										<a href="#">
+											<span class="ladies-nav_icon chat"></span>
+											<span class="ladies-nav_text">Chat</span>
+										</a>
+									</div>
+									<div class="ladies-nav_video">
+										<a href="#">
+											<span class="ladies-nav_icon video"></span>
+											<span class="ladies-nav_text">Video</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-profile">
+									<span class="ladies-profile_name">Anastasia
+										<span class="ladies-profile_status"></span>
+									</span>
+									<p>19 years, Kyiv</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="ladies-container">
+								<div class="ladies-avatar ledy_3">
+									<div class="ladies-avatar_online">
+										<span>Online</span>
+									</div>
+									<div class="ladies-avatar_view">
+										<a href="#">
+											<span class="ladies-avatar_view-icon"></span>
+											<span class="ladies-avatar_view-text">View Profile</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-nav">
+									<div class="ladies-nav_letter">
+										<a href="#">
+											<span class="ladies-nav_icon"></span>
+											<span class="ladies-nav_text">Letter</span>
+										</a>
+									</div>
+									<div class="ladies-nav_chat">
+										<a href="#">
+											<span class="ladies-nav_icon chat"></span>
+											<span class="ladies-nav_text">Chat</span>
+										</a>
+									</div>
+									<div class="ladies-nav_video">
+										<a href="#">
+											<span class="ladies-nav_icon video"></span>
+											<span class="ladies-nav_text">Video</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-profile">
+									<span class="ladies-profile_name">Anastasia
+										<span class="ladies-profile_status"></span>
+									</span>
+									<p>19 years, Kyiv</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="ladies-container">
+								<div class="ladies-avatar ledy_4">
+									<div class="ladies-avatar_online">
+										<span>Online</span>
+									</div>
+									<div class="ladies-avatar_view">
+										<a href="#">
+											<span class="ladies-avatar_view-icon"></span>
+											<span class="ladies-avatar_view-text">View Profile</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-nav">
+									<div class="ladies-nav_letter">
+										<a href="#">
+											<span class="ladies-nav_icon"></span>
+											<span class="ladies-nav_text">Letter</span>
+										</a>
+									</div>
+									<div class="ladies-nav_chat">
+										<a href="#">
+											<span class="ladies-nav_icon chat"></span>
+											<span class="ladies-nav_text">Chat</span>
+										</a>
+									</div>
+									<div class="ladies-nav_video">
+										<a href="#">
+											<span class="ladies-nav_icon video"></span>
+											<span class="ladies-nav_text">Video</span>
+										</a>
+									</div>
+								</div>
+								<div class="ladies-profile">
+									<span class="ladies-profile_name">Anastasia
+										<span class="ladies-profile_status"></span>
+									</span>
+									<p>19 years, Kyiv</p>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="ladies-nav">
-						<div class="ladies-nav_letter">
-							<a href="#">
-								<span class="ladies-nav_icon"></span>
-								<span class="ladies-nav_text">Letter</span>
-							</a>
-						</div>
-						<div class="ladies-nav_chat">
-							<a href="#">
-								<span class="ladies-nav_icon chat"></span>
-								<span class="ladies-nav_text">Chat</span>
-							</a>
-						</div>
-						<div class="ladies-nav_video">
-							<a href="#">
-								<span class="ladies-nav_icon video"></span>
-								<span class="ladies-nav_text">Video</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-profile">
-						<span class="ladies-profile_name">Anastasia
-							<span class="ladies-profile_circle"></span>
-						</span>
-						<p>19 years, Kyiv</p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="ladies-avatar ledy_2">
-						<div class="ladies-avatar_online">
-							<span>Online</span>
-						</div>
-						<div class="ladies-avatar_view">
-							<a href="#">
-								<span class="ladies-avatar_view-icon"></span>
-								<span class="ladies-avatar_view-text">View Profile</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-nav">
-						<div class="ladies-nav_letter">
-							<a href="#">
-								<span class="ladies-nav_icon"></span>
-								<span class="ladies-nav_text">Letter</span>
-							</a>
-						</div>
-						<div class="ladies-nav_chat">
-							<a href="#">
-								<span class="ladies-nav_icon chat"></span>
-								<span class="ladies-nav_text">Chat</span>
-							</a>
-						</div>
-						<div class="ladies-nav_video">
-							<a href="#">
-								<span class="ladies-nav_icon video"></span>
-								<span class="ladies-nav_text">Video</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-profile">
-						<span class="ladies-profile_name">Anastasia
-							<span class="ladies-profile_circle"></span>
-						</span>
-						<p>19 years, Kyiv</p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="ladies-avatar ledy_3">
-						<div class="ladies-avatar_online">
-							<span>Online</span>
-						</div>
-						<div class="ladies-avatar_view">
-							<a href="#">
-								<span class="ladies-avatar_view-icon"></span>
-								<span class="ladies-avatar_view-text">View Profile</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-nav">
-						<div class="ladies-nav_letter">
-							<a href="#">
-								<span class="ladies-nav_icon"></span>
-								<span class="ladies-nav_text">Letter</span>
-							</a>
-						</div>
-						<div class="ladies-nav_chat">
-							<a href="#">
-								<span class="ladies-nav_icon chat"></span>
-								<span class="ladies-nav_text">Chat</span>
-							</a>
-						</div>
-						<div class="ladies-nav_video">
-							<a href="#">
-								<span class="ladies-nav_icon video"></span>
-								<span class="ladies-nav_text">Video</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-profile">
-						<span class="ladies-profile_name">Anastasia
-							<span class="ladies-profile_circle"></span>
-						</span>
-						<p>19 years, Kyiv</p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="ladies-avatar ledy_4">
-						<div class="ladies-avatar_online">
-							<span>Online</span>
-						</div>
-						<div class="ladies-avatar_view">
-							<a href="#">
-								<span class="ladies-avatar_view-icon"></span>
-								<span class="ladies-avatar_view-text">View Profile</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-nav">
-						<div class="ladies-nav_letter">
-							<a href="#">
-								<span class="ladies-nav_icon"></span>
-								<span class="ladies-nav_text">Letter</span>
-							</a>
-						</div>
-						<div class="ladies-nav_chat">
-							<a href="#">
-								<span class="ladies-nav_icon chat"></span>
-								<span class="ladies-nav_text">Chat</span>
-							</a>
-						</div>
-						<div class="ladies-nav_video">
-							<a href="#">
-								<span class="ladies-nav_icon video"></span>
-								<span class="ladies-nav_text">Video</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-profile">
-						<span class="ladies-profile_name">Anastasia
-							<span class="ladies-profile_circle"></span>
-						</span>
-						<p>19 years, Kyiv</p>
-					</div>
-				</div>
+				</div> -->
+
 			</div>
 		</div>
 	</section>
 	<section class="most-popular-profile ladies-online">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<h3>Most Popular Profiles</h3>
+				<h3>Most Popular Profiles</h3>
+				
+				<div class="owl-carousel">
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_2">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_3">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_4">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_2">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_3">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="ladies-container">
+							<div class="ladies-avatar ledy_4">
+								<div class="ladies-avatar_online">
+									<span>Online</span>
+								</div>
+								<div class="ladies-avatar_view">
+									<a href="#">
+										<span class="ladies-avatar_view-icon"></span>
+										<span class="ladies-avatar_view-text">View Profile</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-nav">
+								<div class="ladies-nav_letter">
+									<a href="#">
+										<span class="ladies-nav_icon"></span>
+										<span class="ladies-nav_text">Letter</span>
+									</a>
+								</div>
+								<div class="ladies-nav_chat">
+									<a href="#">
+										<span class="ladies-nav_icon chat"></span>
+										<span class="ladies-nav_text">Chat</span>
+									</a>
+								</div>
+								<div class="ladies-nav_video">
+									<a href="#">
+										<span class="ladies-nav_icon video"></span>
+										<span class="ladies-nav_text">Video</span>
+									</a>
+								</div>
+							</div>
+							<div class="ladies-profile">
+								<span class="ladies-profile_name">Anastasia
+									<span class="ladies-profile_status"></span>
+								</span>
+								<p>19 years, Kyiv</p>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="col-md-3">
-					<div class="ladies-avatar">
-						<div class="ladies-avatar_online">
-							<span>Online</span>
-						</div>
-						<div class="ladies-avatar_view">
-							<a href="#">
-								<span class="ladies-avatar_view-icon"></span>
-								<span class="ladies-avatar_view-text">View Profile</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-nav">
-						<div class="ladies-nav_letter">
-							<a href="#">
-								<span class="ladies-nav_icon"></span>
-								<span class="ladies-nav_text">Letter</span>
-							</a>
-						</div>
-						<div class="ladies-nav_chat">
-							<a href="#">
-								<span class="ladies-nav_icon chat"></span>
-								<span class="ladies-nav_text">Chat</span>
-							</a>
-						</div>
-						<div class="ladies-nav_video">
-							<a href="#">
-								<span class="ladies-nav_icon video"></span>
-								<span class="ladies-nav_text">Video</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-profile">
-						<span class="ladies-profile_name">Anastasia
-							<span class="ladies-profile_circle"></span>
-						</span>
-						<p>19 years, Kyiv</p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="ladies-avatar ledy_2">
-						<div class="ladies-avatar_online">
-							<span>Online</span>
-						</div>
-						<div class="ladies-avatar_view">
-							<a href="#">
-								<span class="ladies-avatar_view-icon"></span>
-								<span class="ladies-avatar_view-text">View Profile</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-nav">
-						<div class="ladies-nav_letter">
-							<a href="#">
-								<span class="ladies-nav_icon"></span>
-								<span class="ladies-nav_text">Letter</span>
-							</a>
-						</div>
-						<div class="ladies-nav_chat">
-							<a href="#">
-								<span class="ladies-nav_icon chat"></span>
-								<span class="ladies-nav_text">Chat</span>
-							</a>
-						</div>
-						<div class="ladies-nav_video">
-							<a href="#">
-								<span class="ladies-nav_icon video"></span>
-								<span class="ladies-nav_text">Video</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-profile">
-						<span class="ladies-profile_name">Anastasia
-							<span class="ladies-profile_circle"></span>
-						</span>
-						<p>19 years, Kyiv</p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="ladies-avatar ledy_3">
-						<div class="ladies-avatar_online">
-							<span>Online</span>
-						</div>
-						<div class="ladies-avatar_view">
-							<a href="#">
-								<span class="ladies-avatar_view-icon"></span>
-								<span class="ladies-avatar_view-text">View Profile</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-nav">
-						<div class="ladies-nav_letter">
-							<a href="#">
-								<span class="ladies-nav_icon"></span>
-								<span class="ladies-nav_text">Letter</span>
-							</a>
-						</div>
-						<div class="ladies-nav_chat">
-							<a href="#">
-								<span class="ladies-nav_icon chat"></span>
-								<span class="ladies-nav_text">Chat</span>
-							</a>
-						</div>
-						<div class="ladies-nav_video">
-							<a href="#">
-								<span class="ladies-nav_icon video"></span>
-								<span class="ladies-nav_text">Video</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-profile">
-						<span class="ladies-profile_name">Anastasia
-							<span class="ladies-profile_circle"></span>
-						</span>
-						<p>19 years, Kyiv</p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="ladies-avatar ledy_4">
-						<div class="ladies-avatar_online">
-							<span>Online</span>
-						</div>
-						<div class="ladies-avatar_view">
-							<a href="#">
-								<span class="ladies-avatar_view-icon"></span>
-								<span class="ladies-avatar_view-text">View Profile</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-nav">
-						<div class="ladies-nav_letter">
-							<a href="#">
-								<span class="ladies-nav_icon"></span>
-								<span class="ladies-nav_text">Letter</span>
-							</a>
-						</div>
-						<div class="ladies-nav_chat">
-							<a href="#">
-								<span class="ladies-nav_icon chat"></span>
-								<span class="ladies-nav_text">Chat</span>
-							</a>
-						</div>
-						<div class="ladies-nav_video">
-							<a href="#">
-								<span class="ladies-nav_icon video"></span>
-								<span class="ladies-nav_text">Video</span>
-							</a>
-						</div>
-					</div>
-					<div class="ladies-profile">
-						<span class="ladies-profile_name">Anastasia
-							<span class="ladies-profile_circle"></span>
-						</span>
-						<p>19 years, Kyiv</p>
-					</div>
-				</div>
+
 			</div>
 		</div>
 	</section>
@@ -474,7 +1175,7 @@
 								<h5><a class="content-news_article-title" href="#">Lorem ipsum dolor sit amet</a></h5>
 								<p class="content-news_article-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 								<span class="content-news_article-date">02.25.2015</span>
-								<button class="content-news_article-btn">Read More</button>
+								<span class="content-news_article-link"><a href="#">Read More</a></span>
 							</div>
 						</div>
 					</div>
@@ -485,7 +1186,7 @@
 								<h5><a class="content-news_article-title" href="#">Lorem ipsum dolor sit amet</a></h5>
 								<p class="content-news_article-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 								<span class="content-news_article-date">02.25.2015</span>
-								<button class="content-news_article-btn">Read More</button>
+								<span class="content-news_article-link"><a href="#">Read More</a></span>
 							</div>
 						</div>
 					</div>
@@ -496,7 +1197,7 @@
 								<h5><a class="content-news_article-title" href="#">Lorem ipsum dolor sit amet</a></h5>
 								<p class="content-news_article-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 								<span class="content-news_article-date">02.25.2015</span>
-								<button class="content-news_article-btn">Read More</button>
+								<span class="content-news_article-link"><a href="#">Read More</a></span>
 							</div>
 						</div>
 					</div>
@@ -518,9 +1219,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="register-title">Looking for a Bride?</h1>
-					<p class="register-text">Brides.dating agency will help you</p>
-					<button class="register-btn">Register on Brides.dating</button>
+					<div class="register-wrap">
+						<div class="register-wrap-content">
+							<h1 class="register-title">Looking for a Bride?</h1>
+							<p class="register-text">Brides.dating agency will help you</p>
+							<a href="#" class="register-link">Register on Brides.dating</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -589,11 +1294,32 @@
 		</div>
 	</footer>
 
-	<script>
-		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="js/bootstrap.js"></script>
-	<script src="js/main.js"></script>
+		<!-- <script>
+			document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+			</script> -->
+
+			<!--[if lt IE 9]>
+		<script src="libs/html5shiv/es5-shim.min.js"></script>
+		<script src="libs/html5shiv/html5shiv.min.js"></script>
+		<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+		<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/countdown/jquery.plugin.js"></script>
+	<script src="libs/countdown/jquery.countdown.min.js"></script>
+	<script src="libs/countdown/jquery.countdown-ru.js"></script>
+	<script src="libs/landing-nav/navigation.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+
+
+
+	<!-- <script src="js/main.js"></script> -->
 </body>
 </html>
