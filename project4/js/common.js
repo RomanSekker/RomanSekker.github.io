@@ -124,40 +124,18 @@ $('.menu-trigger').on('click', function() {
 		e.stopPropagation();
 	});
 
-// var $selector = $('.language-selector .wrap-lang .lang');
-
-// 	// console.log($selector[2].innerText);
-
-
+//Language Selector: Swap
 	var $elm, $elm2, $elm3, $elm4;
 
 $('.language-selector .wrap-lang.active').click(function(event) {
-	$elm = $(this).find('.wrap-lang_main-lang'); // Контейнер
-	$elm3 = $(this).find('.wrap-lang_main-lang>*'); // Содержимое
-	// console.log($elm);
-	console.log($elm3);
+	$elm = $(this).find('.wrap-lang_main-lang'); // container
+	$elm3 = $(this).find('.wrap-lang_main-lang>*'); // content
 });
 $('.language-selector_focus .wrap-lang').click(function(event) {
-	$elm4 = $(this);// КОНТЕЙНЕР
-	$elm2 = $(this).children('*');// содержимое заменяемое вверх
-	$elm3.before($elm2);
-
-
-	// .prependTo('.language-selector_focus');
-
-
-	// replaceAll($elm3);
-	// $('.language-selector_focus').append($elm3);
-
- 
-	// $elm.appendTo($elm2);
-	// $elm3.appendTo('.language-selector .wrap-lang.active');
-
-	// console.log($elm);
-	// console.log($elm2);
-	console.log($elm3);
-
-	
+	$elm4 = $(this);// conteiner:focus
+	$elm2 = $(this).children('*');// content:focus
+	$elm3.appendTo($elm4);
+	$elm2.appendTo($elm);
 });
 
 
