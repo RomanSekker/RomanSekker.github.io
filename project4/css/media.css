@@ -1,13 +1,16 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
+
 @media only screen and (max-width : 1200px) {
-.register-wrap::before{
-		opacity: 0.2;
-	}
-	.top-menu a {
+
+	/*header*/
+	.top-menu ul li {
 		padding-right: 25px;
 	}
+
+	/*container-form*/
+	
 	.form-logos {
 		width: 551px;
 		font-size: 13px;
@@ -16,18 +19,10 @@
 		font-size: 21px;
 	}
 	.form-icon{
-		margin-left: -18px;
 		margin-right: 10px;
 	}
 
-	.ladies-online h3::before {
-		margin-left: 174px;
-	}
-
-	.ladies-online h3::after{
-		margin-right: 174px;
-	}
-
+	/*content*/
 	.content-about-brides p, h5, .content-news_article-text{
 		font-size: 13px;
 	}
@@ -42,54 +37,556 @@
 		margin-top: 11px;
 	}
 
+	/*register*/
+	.register-wrap::before{
+		opacity: 0.2;
+	}
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	/*header*/
+	.brides {
+		font-size: 32px;
+	}
+	.logo_text .dating  {
+		left: 75px;
+	}
+	.top-menu {
+		font-size: 17px;
+	}
+	.top-menu ul li {
+		padding-right: 11px;
+	}
+	.top-menu ul li:last-child {
+		padding-right: 0;
+	}
+	.language-selector_wrap {
+		margin-top: 5px;
+	}
+	.language-selector {
+		padding: 8px;
+	}
+	.header-link {
+		padding: 8px 17px 9px;
+		margin-left: 10px;
+	}
+
+	/*container-form*/
+	.form-logos {
+		width: 100%;
+		font-size: 15px;
+		height: 214px;
+		padding-top: 20px;
+		margin-top: 25px;
+	}
+	.form-text {
+		font-size: 26px;
+	}
+	.main-form {
+		margin: 15px auto 25px;
+	}
+
+	/*ladies-online*/
+	.owl-next {
+		right: 46px;
+	}
+	.owl-prev {
+		left: 46px;
+	}
+	.ladies-container {
+		margin: 0 auto;
+	}
+
+
+
+	/*content*/
+	.content {
+		margin-top: 50px;
+	}
+	.content h2 {
+		margin-bottom: 35px;
+	}
+
+	/*footer*/
+	.footer-copyright {
+		text-align: center;
+	}
+	.footer-social_icon {
+		display: block;
+		margin: 5px auto;
+	}
+	.footer-social_icon.vk {
+		margin: auto;
+	}
+	.footer-categories li:nth-child(2) a {
+		padding-top: 5px;
+	}
+
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	
+	/*header*/
+	header {
+		height: 58px;
+	}
+	header .logo {
+		margin-top: 3px;
+	}
+	.top-menu {
+		padding-top: 0;
+	}
+
+	.brides {
+		font-size: 21px;
+	}
+	.logo_text .dating {
+		font-size: 6px;
+		left: 49px;
+		top: -2px;
+	}
+	.menu-trigger {
+		display:block;
+		font-size: 23px;
+		line-height: 34px;
+		position: relative;
+		font-family: OpenSansBold;
+	}
+	.top-menu .menu-trigger:hover {
+		color: #16b4d1;
+	}
+
+	.top-menu ul {
+		display: none;
+		position: absolute;
+		top: 34px;
+		left: 0;
+		z-index: 5;
+		background-color: #fff;
+		border: 1px solid #a9a9a9;
+		border-radius: 4px;
+		width: 100%;
+		text-align: center;
+	}
+	.top-menu ul li {
+		display:block;
+		border-top:1px #79896D solid;
+		padding: 1px 0; 
+	}
+	.top-menu ul li:first-child {
+		border-top: none;
+	}
+	.top-menu ul li:hover a {
+		color: #16b4dc;
+	}
+	.language-selector_wrap {
+		margin-top: 0;
+	}
+
+	.language-selector, .language-selector_focus {
+		width: 96px;
+	}
+
+	.wrap-lang {
+		font-size: 13px;
+	}
+	.wrap-lang .arrow{
+		right: -2px;
+	}
+
+	.wrap-lang .lang {
+		padding-left: 26px;
+		line-height: 16px;
+	}
+
+	.header-link {
+		font-size: 13px;
+		padding: 9px 5px 10px;
+		margin-left: 7px;
+	}
+
+	/*container-form*/
+	.form-logos {
+		font-size: 11px;
+	}
+	.form-text {
+		font-size: 19px;
+	}
+
+	/*ladies-online*/
+	.ladies-online {
+		margin-top: 40px;
+	}
+
+	.ladies-online h3::before, .ladies-online h3::after {
+		width: 141px;
+	}
+
+	.ladies-online h3::before {
+		left: 178px;
+	}
+
+	.ladies-online h3::after {
+		right: 178px;
+	}
+	.most-popular-profile.ladies-online h3::after, .most-popular-profile.ladies-online  h3::before {
+		width: 96px;
+	}
+	.most-popular-profile.ladies-online h3::after {
+		right: 269px;
+	}
+	.most-popular-profile.ladies-online h3::before {
+		left: 269px;
+	}
+	/*content*/
+	.content {
+		margin-top: 0px;
+	}
+	.content h2 {
+		margin-bottom: 20px;
+		text-align: center;
+		margin-top: 40px;
+	}
+	.content-news:first-child .content-news_article {
+		margin-top: 20px;
+	}
+
+	/*register*/
+	.register {
+		margin-top: 40px;
+	}
+	h1.register-title {
+		font-size: 40px;
+	}
+	.register-text {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+
+	/*footer*/
+	.col-xs-6:nth-child(2) .footer-wrap {
+		border-right: none;
+	}
+	.footer-wrap {
+		padding-left: 25px;
+	}
+	.footer-copyright {
+		text-align: inherit;
+	}
+	.footer-social_icon {
+		display: inline-block;
+	}
+	.footer-social_icon.vk {
+		margin: 5px auto;
+	}
+	
+	.footer-categories li:nth-child(2) a {
+		padding-top: 11px;
+	}
+
+
+
+
 
 }
-	/* Extra Small Devices, Phones */
-	@media only screen and (max-width : 480px) {
-
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/*header*/
+	header {
+		height: 90px;
+	}
+	.logo_text {
+		display: block;
+	}
+	.logo_text .dating {
+		left: 50px;
+	}
+	.menu-trigger {
+		line-height: 67px;
+	}
+	.top-menu ul {
+		top: 55px;
+		min-width: 87px;
+		font-size: 14px;
+	}
+	.header-link {
+		margin-left: 0;
+		display: block;
+		width: 96px;
+		margin-top: 5px;
+		text-align: center;
 	}
 
-	/* Custom, iPhone Retina */
-	@media only screen and (max-width : 320px) {
+	/*container-form*/
+	.form-logos {
+		font-size: 9px;
+		height: 276px;
+		text-align: center;
+	}
+	.form-logos-wrap {
+		padding-bottom: 15px;
+		height: 125px;
+	}
+	.form-text {
+		font-size: 15px;
+	}
+	.form-icon {
+		float: none;
+		margin: 0 auto;
+	}
 
+	.main-form {
+		width: 100%;
+	}
+	.main-form input {
+		width: 185px;
+		padding: 0 5px;
+		font-size: 13px;
+	}
+	.mf-date input {
+		width: 59px;
+	}
+
+	h4 {
+		font-size: 19px;
+	}
+	.main-form {
+		font-size: 13px;
+	}
+	.mf-date .mf-date_m {
+		margin: 0 4px;
+	}
+	.mf-date_month .mf-date_arrow-top, .mf-date_month .mf-date_arrow-bottom {
+		right: 4px;
 	}
 
 
-	/*==========  Mobile First Method  ==========*/
-
-	/* Custom, iPhone Retina */
-	@media only screen and (min-width : 320px) {
-
+	/*ladies-online*/
+	
+	.ladies-online h3::before, .ladies-online h3::after, .most-popular-profile.ladies-online h3::after, .most-popular-profile.ladies-online  h3::before {
+		display: none;
+	}
+	.owl-next {
+		right: 20px;
+	}
+	.owl-prev {
+		left: 20px;
 	}
 
-	/* Extra Small Devices, Phones */
-	@media only screen and (min-width : 480px) {
-
+	/*content*/
+	.content h2 {
+		margin-top: 25px;
+		margin-bottom: 15px;
+		font-size: 26px;
+	}
+	.content-about-brides p, h5, .content-news_article-text {
+		font-size: 11px;
+	}
+	.content-about-brides p {
+		line-height: 18px;
+	}
+	.content-news_article-date {
+		font-size: 10px;
 	}
 
-	/* Small Devices, Tablets */
-	@media only screen and (min-width : 768px) {
+	/*register*/
+	.register {
+		margin-top: 30px;
+		height: 340px;
+	}
+	h1.register-title {
+		font-size: 30px;
+		margin-bottom: 3px;
+		margin-top: 116px;
+	}
+	.register-text {
+		font-size: 17px;
+		margin-bottom: 15px;
+	}
+	.register-link {
+		padding: 14px 16px;
+		font-size: 15px;
+	}
+	.register-wrap::before {
+		display: none;
+	}
+	/*footer*/
 
+	.footer-about {
+		font-size: 9px;
+		margin-top: 20px;
+	}
+	.footer-social_icon,.footer-social_icon.vk  {
+		display: block;
+		margin: 5px;
+	}
+	.footer-copyright{
+		margin-top: 5px;
+		font-size: 7px;
+	}
+	.footer-categories {
+		margin-top: 20px;
+	}
+	.footer-wrap {
+		padding-left: 0;
+	}
+	.footer-categories a {
+		font-size: 9px;
+	}
+	
+
+	
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	/*header*/
+
+	.menu-trigger {
+		font-size: 20px;
+	}
+	.top-menu ul {
+		min-width: 76px;
+		font-size: 13px;
 	}
 
-	/* Medium Devices, Desktops */
-	@media only screen and (min-width : 992px) {
-
+	/*container-form*/ 
+	.form-text {
+		font-size: 11px;
+		padding: 3px 0;
 	}
-		
+	.form-logos {
+		font-size: 8px;
+		height: 240px;
+	}
+	.form-logos-wrap {
+		height: 110px;
+	}
+	h4 {
+		font-size: 15px;
+	}
+	.main-form {
+		font-size: 11px;
+		height: 414px;
+	}
+
+	.main-form input {
+		width: 152px;
+		font-size: 10px;
+		line-height: 30px;
+	}
+	.mf-date input {
+		width: 48px;
+	}
+	.mf-btn {
+		font-size: 14px;
+	}
+
+	.mf-date_arrow-bottom, .mf-date_arrow-top, .mf-date_arrow-bottom{
+		right: 5px;
+	}
+	.mf-date_arrow-top {
+		top: 8px;
+	}
+	.mf-date_arrow-bottom {
+		top: 18px;
+	}
+	.mf-terms {
+		font-size: 8px;
+	}
+	.mf-text {
+		margin-right: 10px;
+		padding-top: 11px;
+	}
+	.mf-date .mf-text, .mf-name .mf-text_last {
+		padding-top: 5px;
+	}
 
 
-		/* Large Devices, Wide Screens */
-		@media only screen and (min-width : 1200px) {
+	/*ladies-online*/
+	.ladies-avatar {
+		background-position: center;
+	}
 
-		}
+	/*content*/
+	.content-about-brides p, h5, .content-news_article-text {
+		font-size: 10px;
+	}
+	.content-news_article-text {
+		margin-top: 6px;
+	}
+	.content-news_article-date {
+		font-size: 9px;
+	}
+	.content-article .content-news_article-link a {
+		padding: 6px 12px;
+		font-size: 12px;
+	}
+
+/*register*/
+	h1.register-title {
+		font-size: 25px;
+		margin-top: 97px;
+	}
+	.register-text {
+		font-size: 14px;
+	}
+
+
+	/*footer*/
+
+	.footer-about {
+		font-size: 8px;
+	}
+	
+	.footer-copyright{
+		margin-top: 3px;
+	}
+	.footer-social_icon, .footer-social_icon.vk {
+		display: inline-block;
+	}
+	.footer-title {
+		margin-top: 0;
+	}
+	.footer-categories {
+		margin: 0 -5px;
+	}
+	
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

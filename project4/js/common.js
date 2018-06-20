@@ -98,6 +98,19 @@ $(document).ready(function() {
 
 
 
+// menu-trigger
+
+$('.menu-trigger').on('click', function() {
+		$('nav ul').slideToggle(400);
+	});
+	$(window).resize(function() {
+		if ($(window).width() > 768) {
+			$('nav ul').removeAttr('style');
+		}
+	});
+
+
+
 	//Language Selector: popup-memu
 
 	$(".language-selector .wrap-lang").click(function() {
@@ -111,26 +124,39 @@ $(document).ready(function() {
 		e.stopPropagation();
 	});
 
-var $selector = $('.language-selector .wrap-lang .lang');
+// var $selector = $('.language-selector .wrap-lang .lang');
 
-	// console.log($selector[2].innerText);
+// 	// console.log($selector[2].innerText);
 
-function popMenu(index) {
-	
-}
-	var $elm, $elm2 ;
+
+	var $elm, $elm2, $elm3, $elm4;
 
 $('.language-selector .wrap-lang.active').click(function(event) {
-	$elm = $(this).find('.wrap-lang_main-lang>*').clone();
-	console.log($elm);
+	$elm = $(this).find('.wrap-lang_main-lang'); // Контейнер
+	$elm3 = $(this).find('.wrap-lang_main-lang>*'); // Содержимое
+	// console.log($elm);
+	console.log($elm3);
 });
-
 $('.language-selector_focus .wrap-lang').click(function(event) {
-	// $elm2 = $(this).find('.language-selector_focus .wrap-lang');
-	console.log($elm2);
-	$(this).empty();
-	$elm.appendTo($(this));
-	$elm2.insertAfter('.language-selector .wrap-lang.active');
+	$elm4 = $(this);// КОНТЕЙНЕР
+	$elm2 = $(this).children('*');// содержимое заменяемое вверх
+	$elm3.before($elm2);
+
+
+	// .prependTo('.language-selector_focus');
+
+
+	// replaceAll($elm3);
+	// $('.language-selector_focus').append($elm3);
+
+ 
+	// $elm.appendTo($elm2);
+	// $elm3.appendTo('.language-selector .wrap-lang.active');
+
+	// console.log($elm);
+	// console.log($elm2);
+	console.log($elm3);
+
 	
 });
 
