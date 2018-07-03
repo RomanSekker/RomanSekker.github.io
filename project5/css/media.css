@@ -506,7 +506,7 @@
 	}
 	/*profile*/
 	.profile {
-	font-size: 8px;
+		font-size: 8px;
 	}
 	.profile-data h1 {
 		font-size: 12px;
@@ -653,7 +653,7 @@
 	}
 	.logo_img {
 		margin-left: -10px;
-			margin-right: -5px;
+		margin-right: -5px;
 	}
 	.logo_text .dating {
 		left: 35px;
@@ -704,8 +704,18 @@
 	.profile-data_id {
 		margin-bottom: 5px;
 	}
+	.profile-info_list-answ li {
+		padding-right: 61px;
+	}
+	.profile ul li {
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
 	.profile-btns {
 		margin-top: 8px;
+	}
+	.profile-btns_chat-link, .profile-btns_video-link, .profile-btns_letter-link {
+		padding: 1px 3px;
 	}
 
 	/*photos*/
@@ -714,11 +724,94 @@
 		height: 25px;
 		top: -117px;
 	}
+	h2::before, h2::after {
+		width: 40px;
+	}
+	h2::after {
+		right: -45px;
+	}
+	h2::before {
+		left: -45px;
+	}
 
 	/*about*/
+	.about_content {
+		text-align: center;
+	}
 	.about_content img {
-		max-width: 100%
 		float: none;
+		margin: 0 auto 10px;
+		display: block;
+	}
+	.about_content_text {
+		font-size: 8px;
+		line-height: 13px;
+	}
+	.total, .about h2 {
+		margin-bottom: 10px;
+	}
+
+	/*contact-him*/
+	.contact-him {
+		font-size: 10px;
+	}
+	.contact-him_question {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	.contact-him .profile-btns {
+		margin-top: 15px;
+	}
+	.contact-him .profile-btns_chat {
+		margin-right: 5px;
+		margin-bottom: 0;
+	}
+	.contact-him_btn_or {
+		font-size: 8px;
+	}
+	.contact-him .profile-btns_letter {
+		margin-bottom: 20px;
+	}
+	.btns_letter-link {
+		padding: 2px 8px;
+		font-size: 8px;
+	}
+
+
+	/*handsome-men*/
+
+	.handsome-men h3 {
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.handsome-men h3::before, .handsome-men h3::after {
+		top: 9px;
+	}
+	.handsome-men-profile_name {
+		font-size: 20px;
+	}
+	.handsome-men-profile_status {
+		width: 9px;
+		height: 9px;
+	}
+	.handsome-men-profile p {
+		font-size: 13px;
+		padding-top: 4px;
+	}
+	.handsome-men-profile_view {
+		font-size: 11px;
+		padding: 5px 13px;
+	}
+	.handsome-men .owl-prev, .handsome-men .owl-next {
+		top: -300px;
+	}
+
+	/*footer*/
+	footer {
+		padding: 20px 0;
+	}
+	.footer-wrap {
+		font-size: 9px;
 	}
 
 	
