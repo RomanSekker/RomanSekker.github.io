@@ -296,7 +296,7 @@ a.dashboard:hover {
 	position: relative;
 }
 .profile-avatar img {
-	height: 601px;
+	max-height: 601px;
 	width: 100%;
 }
 

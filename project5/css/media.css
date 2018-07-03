@@ -25,9 +25,7 @@
 		margin-top: 35px;
 		font-size: 13px;
 	}
-	.profile-avatar img{
-		height: 500px;
-	}
+	
 
 	.profile-info, .profile-info_more {
 		margin-top: 25px;
@@ -118,9 +116,7 @@
 		margin-top: 30px;
 		font-size: 12px;
 	}
-	.profile-avatar img{
-		height: 400px;
-	}
+	
 
 	.profile-info, .profile-info_more {
 		margin-top: 15px;
@@ -347,9 +343,7 @@
 		margin: 0 auto 15px;
 		max-width: 300px;
 	}
-	.profile-avatar img{
-		height: 350px;
-	}
+	
 	.profile-data h1 {
 		font-size: 28px;
 	}
