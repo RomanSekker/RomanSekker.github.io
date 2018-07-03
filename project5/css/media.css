@@ -1,0 +1,760 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1200px) {
+
+	/*header-bottom*/
+
+	.logo_text .dating {
+		left: 54px;
+		top: -1px;
+		font-size: 7px;
+	}
+	.brides {
+		font-size: 25px;
+	}
+	.top-menu {
+		font-size: 15px;
+		padding-top: 30px;
+	}
+
+	/*profile*/
+
+	.profile {
+		margin-top: 35px;
+		font-size: 13px;
+	}
+	.profile-avatar img{
+		height: 500px;
+	}
+
+	.profile-info, .profile-info_more {
+		margin-top: 25px;
+	}
+	.profile-data h1 {
+		font-size: 40px;
+	}
+	.profile-data_age {
+		font-size: 16px;
+	}
+	.profile-btns {
+		margin-top: 19px;
+	}
+	.profile-info_list-answ li {
+		padding-right: 61px;
+	}
+	.profile-data_wrap_bottom {
+		justify-content: space-around;
+	}
+
+	/*photos*/
+	.photos {
+		margin: 50px 0;
+	}
+	.total, .about h2 {
+		margin-bottom: 30px;
+	}
+
+	/*about*/
+	.about_content_text {
+		font-size: 16px;
+	}
+
+	/*handsome-men*/
+	.handsome-men {
+		margin: 80px 0;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	/*header-top*/
+
+	.header-top {
+		font-size: 13px;
+	}
+	a.dashboard_text{
+		margin-right: 25px;
+	}
+	.dashboard-list {
+		margin-right: 40px;
+	}
+	.dashboard-btn {
+		margin-left: 20px;
+	}
+
+	/*header-bottom*/
+	.top-menu {
+		font-size: 13px;
+		text-align: center;
+	}
+	.wrap-lang {
+		font-size: 13px;
+	}
+	.wrap-lang .lang {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.wrap-lang .arrow {
+		right: -4px;
+	}
+	.language-selector {
+		min-width: 95px;
+		padding-left: 2px;
+	}
+
+	.language-selector_focus {
+		padding-left: 2px;
+		width: 95px;
+	}
+
+	/*profile*/
+
+	.profile {
+		margin-top: 30px;
+		font-size: 12px;
+	}
+	.profile-avatar img{
+		height: 400px;
+	}
+
+	.profile-info, .profile-info_more {
+		margin-top: 15px;
+	}
+	.profile-data h1 {
+		font-size: 30px;
+	}
+	.profile-data_age {
+		font-size: 13px;
+		margin-bottom: 7px;
+	}
+	.profile-btns {
+		margin-top: 13px;
+	}
+	.profile-info_list-answ li {
+		padding-right: 41px;
+	}
+
+	.profile-info_list-question li {
+		padding: 11px;
+		white-space: nowrap;
+	}
+	.profile-nav {
+		margin-top: 0;
+		font-size: 9px;
+	}
+	.profile ul li {
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+
+	.profile-btns_chat-link, .profile-btns_video-link, .profile-btns_letter-link {
+		white-space: nowrap;
+		padding: 7px 6px;
+	}
+	.profile-btns_text {
+		margin-left: 5px;
+	}
+
+	/*photos*/
+	.photos {
+		margin: 40px 0;
+	}
+	.total, .about h2 {
+		margin-bottom: 30px;
+	}
+	h2::before, h2::after{
+		width: 100px;
+	}
+	h2::after{
+		right: -130px;
+	}
+	h2::before {
+		left: -130px;
+	}
+
+	/*about*/
+	.about_content_text {
+		font-size: 14px;
+	}
+
+	.about_content img {
+		margin: 9px 20px 20px 0;
+		max-width: 300px;
+	}
+
+	/*contact-him*/
+	.contact-him {
+		font-size: 25px;
+	}
+	.contact-him_question {
+		font-size: 44px;
+		margin-top: 60px;
+	}
+	.contact-him .profile-btns {
+		margin-top: 30px;
+	}
+	.contact-him .profile-btns_chat-link, .contact-him .profile-btns_video-link, .contact-him .profile-btns_letter-link {
+		padding: 8px 20px;
+	}
+	.contact-him_btn_or {
+		margin-top: 15px;
+	}
+
+	/*handsome-men*/
+	.handsome-men .owl-next {
+		right: 40px;
+	}
+	.handsome-men .owl-prev {
+		left: 40px;
+	}
+	.handsome-men-container {
+		margin: 0 auto;
+	}
+
+
+	/*footer*/
+	.footer-wrap {
+		font-size: 11px;
+	}
+	.footer-about, .footer-categories {
+		margin-top: 20px;
+	}
+	.footer-copyright {
+		margin: 10px 0;
+	}
+	.footer-categories .agency-icon {
+		margin-right: 0;
+	}
+
+	.footer-wrap .footer-social_icon {
+		display: block;
+		margin: 7px auto;
+	}
+
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*header-top*/
+
+	.header-top, .circle-number {
+		font-size: 10px;
+	}
+
+	a.dashboard_text {
+		margin-right: 12px;
+		margin-left: 0;
+		font-size: 15px;
+	}
+	.dashboard-list_circle {
+		width: 17px;
+		height: 17px;
+		right: -20px;
+	}
+	.dashboard-list {
+		margin-right: 25px;
+	}
+
+	.dashboard-btn {
+		margin-left: 5px;
+	}
+	.arrow-dashboard {
+		margin-left: 0;
+	}
+	.dashboard-wrap.right {
+		padding: 17px 0 0;
+	}
+
+	/*header-bottom*/
+	.header-bottom .col-2 {
+		order: 1;
+	}
+	.logo {
+		padding-top: 9px;
+	}
+	.brides {
+		font-size: 24px;
+	}
+	.logo_text .dating {
+		top: 1px;
+		font-size: 6px;
+	}
+
+	.language-selector_wrap {
+		padding: 12px 0 10px;
+		justify-content: start;
+	}
+	.wrap-lang .arrow {
+		right: 2px;
+	}	
+
+	.language-selector, .language-selector_focus {
+		width: 115px;
+		padding-left: 8px;
+	}
+
+	.menu-trigger {
+		display: block;
+		font-size: 24px;
+	}
+	.top-menu {
+		padding-top: 17px;
+	}
+	.top-menu ul {
+		display: none;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		position: absolute;
+		right: 28px;
+		background-color: #cfcfcf;
+		z-index: 5;
+		border: 1px solid #000;
+	}
+	.top-menu ul li {
+		padding: 3px 0; 
+		width: 150px;
+		border-top:1px #000 solid;
+		margin: 0;
+	}
+	.top-menu ul li:first-child {
+		border-top: none;
+	}
+
+	.nav-top {
+		padding: 12px 0;
+	}
+	.nav-top a {
+		font-size: 13px;
+	}
+
+	/*profile*/
+	.profile {
+		margin-top: 15px;
+		font-size: 11px;
+	}
+	.profile-avatar {
+		margin: 0 auto 15px;
+		max-width: 300px;
+	}
+	.profile-avatar img{
+		height: 350px;
+	}
+	.profile-data h1 {
+		font-size: 28px;
+	}
+	.profile-data_age {
+		font-size: 12px;
+	}
+	.profile-info_list-answ li {
+		padding-right: 24px;
+	}
+	.profile-btns {
+		justify-content: center;
+	}
+	.profile-btns_chat-link, .profile-btns_video-link, .profile-btns_letter-link {
+		padding: 4px 6px;
+	}
+	.profile-data_wrap_top, .profile-data_wrap_bottom, .profile-btns {
+		margin-left: 0;
+	}
+
+	/*photos*/
+	.photos {
+		margin: 25px 0;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	.total, .about h2 {
+		margin-bottom: 20px;
+	}
+	h2::after{
+		right: -115px;
+	}
+	h2::before {
+		left: -115px;
+	}
+	.view_all {
+		top: 37px;
+		font-size: 12px;
+	}
+
+	/*about*/
+	.about_content_text {
+		font-size: 12px;
+		line-height: 22px;
+	}
+
+	.about_content img {
+		margin: 9px 15px 0 0;
+		max-width: 200px;
+	}
+
+	/*contact-him*/
+	.contact-him {
+		font-size: 15px;
+	}
+	.contact-him_question {
+		font-size: 30px;
+		margin-top: 40px;
+	}
+	.profile-btns {
+		margin-top: 20px;
+	}
+	.contact-him_btn_or {
+		margin: 10px 0;
+		font-size: 11px;
+	}
+	.contact-him .profile-btns_letter {
+		margin-bottom: 40px;
+	}
+	.contact-him .profile-btns_chat-link, .contact-him .profile-btns_video-link, .contact-him .profile-btns_letter-link {
+		padding: 5px 15px;
+		font-size: 14px;
+	}
+
+	/*handsome-men*/
+	.handsome-men {
+		margin: 40px 0;
+	}
+	.handsome-men h3 {
+		font-size: 20px;
+		margin-bottom: 25px;
+	}
+	.handsome-men h3::before, .handsome-men h3::after {
+		width: 85px;
+	}
+	.handsome-men h3::before {
+		left: -95px;
+	}
+	.handsome-men h3::after {
+		right: -95px;
+	}
+
+	/*footer*/
+	footer {
+		padding: 25px 0;
+	}
+	.footer-wrap {
+		font-size: 10px;
+		border-right: none;
+		height: 270px;
+	}
+	.footer-copyright{
+		font-size: 9px;
+		margin: 3px 0 10px;
+	}
+	.footer-wrap .footer-social_icon {
+		margin: 7px 0;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/*header-top*/
+	.header-top {
+		font-size: 8px;
+	}
+	.brides {
+		font-size: 17px;
+	}
+	.logo_text .dating {
+		top: 0;
+		font-size: 5px;
+		left: 38px;
+	}
+	a.dashboard_text {
+		font-size: 9px;
+		margin-right: 5px;
+	}
+	.dashboard-list {
+		margin-right: 16px;
+	}
+	.dashboard-list_circle {
+		width: 12px;
+		height: 12px;
+		right: -14px;
+		top: -2px;
+	}
+	.header-top, .circle-number {
+		font-size: 7px;
+	}
+	.dashboard-wrap.right {
+		font-size: 7px;
+	}
+	.dashboard-btn {
+		margin-left: 4px;
+	}
+	.arrow-dashboard {
+		display: none;
+	}
+	.language-selector, .language-selector_focus {
+		width: 96px;
+	}
+	.wrap-lang .arrow {
+		right: -5px;
+	}
+	/*profile*/
+	.profile {
+	font-size: 8px;
+	}
+	.profile-data h1 {
+		font-size: 12px;
+	}
+	.profile-data_age {
+		font-size: 9px;
+		margin-bottom: 4px;
+	}
+	.profile-nav {
+		font-size: 8px;
+	}
+	.profile-nav ul li {
+		padding: 0;
+	}
+	.profile-info_more li {
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.profile-btns {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.profile-btns_chat-link, .profile-btns_video-link, .profile-btns_letter-link {
+		padding: 3px;
+	}
+	.profile-btns_text {
+		margin-left: 3px;
+	}
+	/*photos*/
+	.photos {
+		margin: 15px 0;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	.total, .about h2 {
+		margin-bottom: 15px;
+	}
+	h2::before, h2::after{
+		top: 12px;
+		width: 70px;
+	}
+	h2::after{
+		right: -75px;
+	}
+	h2::before {
+		left: -75px;
+	}
+	.view_all {
+		top: 21px;
+		font-size: 8px;
+	}
+
+	/*about*/
+	.about_content_text {
+		font-size: 10px;
+		line-height: 16px;
+	}
+	.total {
+		margin-top: 3px;
+		margin-bottom: 10px;
+		font-size: 10px;
+	}
+
+	/*contact-him*/
+	.contact-him{
+		font-size: 12px;
+	}
+	.contact-him_question {
+		font-size: 24px;
+		margin-top: 25px;
+		margin-bottom: 5px;
+	}
+	.contact-him .profile-btns_text {
+		margin-left: 3px;
+	}
+	.contact-him .profile-btns_chat-link, .contact-him .profile-btns_video-link, .contact-him .profile-btns_letter-link {
+		padding: 3px 8px;
+		font-size: 9px;
+	}
+	.profile-btns{
+		margin-bottom: 5px;
+	}
+	.contact-him_btn_or {
+		margin: 5px 0;
+		font-size: 9px;
+	}
+	.contact-him .profile-btns_letter {
+		margin-bottom: 25px;
+	}
+
+	/*handsome-men*/
+	.handsome-men{
+		margin: 25px 0;
+	}
+	.handsome-men h3::before, .handsome-men h3::after {
+		width: 20px;
+	}
+	.handsome-men h3::after {
+		right: -25px;
+	}
+	.handsome-men h3::before {
+		left: -25px;
+	}
+	.handsome-men .owl-next {
+		right: 20px;
+	}
+
+	.handsome-men .owl-prev {
+		left: 20px;
+	}
+	.handsome-men-profile_name {
+		font-size: 24px;
+	}
+	.handsome-men-profile p {
+		font-size: 16px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	/*header-top*/
+	.header-top {
+		font-size: 6px;
+	}
+
+	a.dashboard_text {
+		font-size: 7px;
+		margin-right: 3px;
+	}
+	.dashboard-wrap.right {
+		text-align: center;
+		padding-top: 9px;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	/*header-bottom*/
+	.wrap-lang {
+		font-size: 11px;
+	}
+	.brides {
+		font-size: 16px;
+	}
+	.logo_img {
+		margin-left: -10px;
+			margin-right: -5px;
+	}
+	.logo_text .dating {
+		left: 35px;
+	}
+	.language-selector_wrap {
+		padding-bottom: 3px;
+	}
+	
+	/*nav-top*/
+	.nav-top{
+		padding: 8px 0;
+	}
+	.nav-top a{
+		font-size: 11px;
+	}
+
+	/*profile*/
+	.profile, .profile-nav {
+		font-size: 7px;
+	}
+	.profile-avatar_online {
+		font-size: 15px;
+		padding: 5px 12px;
+	}
+	.profile-avatar_icon {
+		right: 10px;
+		bottom: 10px;
+	}
+	.profile-nav_icon {
+		margin-bottom: 3px;
+	}
+
+	.profile-data_wrap_top, .profile-data_wrap_bottom, .profile-btns {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.profile-data h1 {
+		font-size: 16px;
+	}
+	.profile-data_age {
+		font-size: 11px;
+	}
+
+	.profile-data_id {
+		margin-bottom: 5px;
+	}
+	.profile-btns {
+		margin-top: 8px;
+	}
+
+	/*photos*/
+	.owl-prev, .owl-next {
+		width: 25px;
+		height: 25px;
+		top: -117px;
+	}
+
+	/*about*/
+	.about_content img {
+		max-width: 100%
+		float: none;
+	}
+
+	
+	
+
+
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
