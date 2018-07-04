@@ -459,6 +459,7 @@
 	.header-top {
 		font-size: 8px;
 	}
+
 	.brides {
 		font-size: 17px;
 	}
@@ -494,6 +495,9 @@
 	}
 	.language-selector, .language-selector_focus {
 		width: 96px;
+	}
+	.wrap-lang {
+		font-size: 11px;
 	}
 	.wrap-lang .arrow {
 		right: -5px;
@@ -639,9 +643,6 @@
 		align-items: center;
 	}
 	/*header-bottom*/
-	.wrap-lang {
-		font-size: 11px;
-	}
 	.brides {
 		font-size: 16px;
 	}
