@@ -16,46 +16,6 @@ $(document).ready(function() {
 	});
 	// Плавный переход по якорю end
 
-
-
-	// bg-video
-	
-	// var videobackground = new $.backgroundVideo($('header'), {
-	// 	"align": "centerXY",
-	// 	"width": 1280,
-	// 	"height": 720,
-	// 	"path": "video/",
-	// 	"filename": "video-bg",
-	// 	"types": ["mp4","ogg","webm"],
-	// 	"preload": true,
-	// 	"autoplay": true,
-	// 	"loop": true
-	// });
-
-
-
-	<script>
-// Get the video
-var video = document.getElementById("myVideo");
-
-// Get the button
-var btn = document.getElementById("myBtn");
-
-// Pause and play the video, and change the button text
-function myFunction() {
-    if (video.paused) {
-        video.play();
-        btn.innerHTML = "Pause";
-    } else {
-        video.pause();
-        btn.innerHTML = "Play";
-    }
-}
-</script>
-
-	// end-bg-video
-
-
 	// Аккордион
 	$('.faqs-wrap-content > .about-text').not(':first-of-type').hide();
 
@@ -73,7 +33,7 @@ function myFunction() {
 		}
 
 		if ($findText.is(':visible')) {
-			$findText.slideUp('fast');
+			$findText.slideUp('fast')
 		}
 		else {
 			$findWrapper.find('>.about-text').slideUp('fast');
