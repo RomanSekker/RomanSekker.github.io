@@ -20,7 +20,7 @@ $(document).ready(function() {
 
 	// bg-video
 	
-	// var videobackground = new $.backgroundVideo($('section.main'), {
+	// var videobackground = new $.backgroundVideo($('header'), {
 	// 	"align": "centerXY",
 	// 	"width": 1280,
 	// 	"height": 720,
