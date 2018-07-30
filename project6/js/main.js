@@ -1,4 +1,14 @@
 $(document).ready(function() {
+
+	//main-about
+	$('.main .material-icons-expand_more').on('click', function(event) {
+		event.preventDefault();
+		$('.header-nav-drop-list').slideToggle(400);
+	});
+	//main-about end
+
+
+
 	// bg-video
 	
 	// var videobackground = new $.backgroundVideo($('section.main'), {
@@ -28,6 +38,13 @@ $(document).ready(function() {
 
 		var $findText = $(this).prev();
 		var $findWrapper = $(this).closest('.faqs-wrap-content');
+		var $toggleClass = $(this).children('span')[0]['className'];
+		if ($toggleClass == 'material-icons-ico material-icons-add') {
+			$(this).children('span').attr('class', 'material-icons-ico material-icons-remove');
+		} 
+		else {
+			$(this).children('span').attr('class', 'material-icons-ico material-icons-add');
+		}
 
 		if ($findText.is(':visible')) {
 			$findText.slideUp('fast');
@@ -37,6 +54,7 @@ $(document).ready(function() {
 			$findText.slideDown('fast');
 		}
 	});
+
   //end Аккордион
 
 

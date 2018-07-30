@@ -33,6 +33,9 @@ h5 {
 }
 
 /*main*/
+body {
+	font-family: 'LatoRegular', sans-serif;
+}
 
 section.main {
 	min-height: 100vh;
@@ -74,7 +77,11 @@ section.main {
 	font-weight: bold;
 }
 
-.header-nav ul{
+.header-nav {
+	position: relative;
+}
+
+.header-nav-main-list{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -83,12 +90,29 @@ section.main {
 	font-size: 24px;
 }
 
-.header-nav ul li {
+.header-nav-main-list li {
 	margin-right: 70px;
 }
 
-.header-nav ul li:last-child {
+.header-nav-main-list li:last-child {
 	margin-right: 0;
+}
+
+.header-nav-drop-list {
+	display: none;
+	position: absolute;
+	top: 96px;
+	left: 107px;
+	padding: 20px 25px;
+	font-size: 20px;
+	background-color: #fff;
+	border: 1px solid #ededed;
+	border-radius: 1px;
+	width: 195px;
+	height: 144px;
+}
+.header-nav-drop-list li a{
+	color: #333333;
 }
 
 .material-icons-expand_more{
@@ -111,7 +135,7 @@ section.main {
 }
 
 .main-form  input {
-	padding: 14px 18px 15px;
+	padding: 7px 18px 8px;
 	border: 1px solid #cccccc;
 	border-radius: 1px;
 	margin-bottom: 10px;
@@ -122,7 +146,7 @@ section.main {
 .form-btn {
 	font-family: 'LatoBold', sans-serif;
 	text-transform: uppercase;
-	padding: 20px 54px 21px 64px;
+	padding: 13px 54px 14px 64px;
 	background-color: #5dbdfe;
 	border-radius: 1px;
 	border: none;
@@ -216,7 +240,6 @@ section.features .material-icons-ico {
 	margin-bottom: 60px;
 }
 
-
 .feature-content:last-child {
 	margin-bottom: 0;
 }
@@ -249,11 +272,12 @@ section.features .material-icons-ico {
 	background-color: #5dbdfe;
 }
 
-.bg-men-block {
+.bg-man-block {
 	position: absolute;
-	background: url(../img/bg-feature_man.png) 73px -21px no-repeat;
-	width: 100%;
-	height: 649px;
+	top: -22px;
+	right: 78px;
+	overflow: hidden;
+	height: 670px;
 }
 
 /*advantages*/
@@ -430,7 +454,7 @@ section.carosel {
 }
 
 .carosel img {
-	height: 360px;
+	max-height: 360px;
 }
 
 
@@ -455,6 +479,7 @@ section.blog {
 	-o-flex-direction: column;
 	flex-direction: column;
 	justify-content: flex-end;
+	box-shadow:  3px 3px 3px #e3e3e3;
 }	
 .blog-img  {
 	position: absolute;
