@@ -1,17 +1,405 @@
 
+@media only screen and (max-width : 1600px) {
+	.logo {
+		font-size: 50px;
+	}
+	.header-nav-main-list li {
+		margin-right: 35px;
+	}
+	.material-icons-expand_more {
+		right: -25px;
+	}
+
+}
+
 /* Large Devices, Wide Screens */
 
 @media only screen and (max-width : 1200px) {
+	/*main*/
+	.main header {
+		padding: 0 30px;
+		height: 100px;
+	}
+
+	.logo {
+		font-size: 40px;
+	}
+	.header-nav-main-list {
+		font-size: 20px;
+	}
+	.header-nav-drop-list {
+		font-size: 18px;
+		top: 68px;
+		left: 61px;
+		width: 170px;
+		height: 125px;
+	}
+	.main-heading {
+		margin-top: 140px;
+		margin-bottom: 110px;
+	}
+	h1 {
+		font-size: 100px;
+	}
+	section {
+		padding: 100px 0;
+	}
+
+
+	/*features*/
+	.bg-man-block {
+		right: 21px;
+		height: 708px;
+	}
+	.content-text{
+		margin-top: 10px;
+	}
+	.about-text {
+		margin: 25px 0 50px;
+	}
+
+	/*blog*/
+	.blog-wrap {
+		height: 276px;
+	}
+	.blog-wrap img {
+		width: 100%;
+	}
 
 }
+
+
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	/*main*/
+	.header-nav-drop-list {
+		padding: 10px 20px ;
+		width: 160px;
+		height: 113px;
+	}
+	.header-nav-main-list {
+		font-size: 18px;
+	}
+	.header-nav-main-list li {
+		margin-right: 30px;
+	}
+	.material-icons-expand_more {
+		right: -20px;
+	}
+	h1 {
+		font-size: 85px;
+	}
+	h5 {
+		font-size: 22px;
+	}
+	section {
+		padding: 80px 0;
+	}
 
+	/*about*/
+	.about-text, .content-text {
+		font-size: 18px;
+	}
+	.about h5  {
+		font-size: 24px;
+	}
+	section.about .material-icons-ico {
+		font-size: 45px;
+	}
+	.about-content-icon {
+		height: 80px;
+		width: 80px;
+	}
+	.about-content-text {
+		margin-left: 110px;
+	}
+
+	/*features*/
+	section.features::before {
+		margin-bottom: 80px;
+	}
+	section.features {
+		padding-bottom: 89px;
+	}
+	
+
+	section.features .material-icons-ico {
+		font-size: 60px;
+		line-height: 60px;
+	}
+	.feature-content {
+		margin-bottom: 25px;
+	}
+	
+	.bg-man-block img{
+		max-width: 330px;
+	}
+	.bg-man-block {
+		right: 0;
+		height: 708px;
+	}
+	.feature-content-text {
+		margin-left: 80px;
+	}
+	.feature-content-text p {
+		padding-right: 15px;
+	}
+
+	/*advantages */
+	.advantages, .team, .blog  {
+		padding-bottom: 50px;
+	}
+	section.advantages h5 {
+		margin: 15px 0;
+	}
+
+	.advantages .content-text {
+		margin-bottom: 25px;
+	}
+	.advantages  .const-margin {
+		margin: 0;
+	}
+
+	/*testimonials*/
+	section.testimonials .testimonials-icon {
+		margin-top: 40px;
+	}
+
+	/*team*/
+	.team .about-text {
+		margin-bottom: 30px;
+	}
+
+	/*faqs*/
+	.faqs .faqs-wrap-content:last-of-type {
+		margin-bottom: 30px;
+	}
+
+	.faqs-wrap-content {
+		padding: 16px 20px;
+	}
+	.faqs .testimonials-icon {
+		top: 15px;
+	}
+	.faqs-wrap-content .about-text {
+		margin-top: 10px;
+		padding-right: 40px;
+	}
+
+	/*work*/
+	.work h2 {
+		text-align: center;
+	}
+	.work-order-first {
+		order: 1;
+		margin-bottom: 30px;
+	}
+	.work-order-second {
+		order: 2;
+		height: 400px;
+	}
+
+	.work-text {
+		font-size: 18px;
+		margin-top: 15px;
+		margin-bottom: 5px;
+	}
+
+	/*blog*/
+
+	.blog-wrap {
+		height: 350px;
+	}
+	.blog-wrap {
+		margin-bottom: 30px;
+	}
+
+	/*.partners*/
+	.partners h2{
+		margin-bottom: 40px;
+	}
 }
+
+
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+
+	/*main*/
+	.main header {
+		height: 70px;
+	}
+	.logo {
+		font-size: 17px;
+	}
+	.header-nav-main-list{
+		font-size: 12px;
+	}
+	.header-nav-main-list li {
+		margin-right: 13px;
+	}
+	.material-icons-expand_more {
+		right: -12px;
+	}
+
+	.header-nav-drop-list {
+		font-size: 12px;
+		padding: 10px;
+		width: 100px;
+		height: 83px;
+		top: 46px;
+		left: 34px;
+	}
+	.main-heading {
+		font-size: 20px;
+		margin: 70px 0;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	.main-form {
+		font-size: 14px;
+		margin-bottom: 100px;
+	}
+
+	.main-form input {
+		width: 234px;
+		padding: 2px 10px;
+	}
+
+	.form-btn {
+		width: 234px;
+		padding: 6px 0;
+	}
+
+	h2 {
+		font-size: 30px;
+	}
+	section {
+		padding: 50px 0;
+	}
+
+	/*about*/
+	.about-text, .content-text {
+		font-size: 14px;
+	}
+	.about-text {
+		margin: 15px 0 30px;
+	}
+
+	.about-content-icon {
+		width: 50px;
+		height: 50px;
+	}
+	section.about .material-icons-ico {
+		font-size: 30px;
+	}
+	.about-content-text {
+		margin-left: 75px;
+	}
+	.about .const-margin {
+		margin-top: 0;
+	}
+	.content-text {
+		margin-bottom: 15px;
+	}
+
+	/*features*/
+	section.features::before {
+		margin-bottom: 50px;
+	}
+	.feature-img-block {
+		margin-top: 30px;
+	}
+	.bg-man-block {
+		right: 60px;
+	}
+	section.features {
+		padding-bottom: 50px;
+	}
+	.bg-man-block img {
+		max-width: 299px;
+	}
+
+	/*.advantages*/
+
+	.advantages-icon {
+		width: 50px;
+		height: 50px;
+		font-size: 30px;
+	}
+	h5 {
+		font-size: 20px;
+	}
+	section.advantages h5 {
+		margin: 10px 0;
+	}
+
+	/*testimonials*/
+	section.testimonials .testimonials-icon {
+		margin-top: 20px;
+	}
+
+	/*team*/
+	.team-post {
+		margin: 3px 0;
+	}
+	
+	/*faqs-*/
+	.faqs-wrap-content {
+		padding: 10px 20px;
+	}
+	.faqs .testimonials-icon {
+		top: 10px;
+		width: 25px;
+		height: 25px;
+		font-size: 20px;
+	}
+
+	/*blog*/
+	.blog-wrap {
+		height: 276px;
+	}
+
+	/*.partners*/
+	.partners-logo {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.partners-logo img {
+		margin-top: 30px;
+	}
+	.partners-logo img:first-child {
+		margin-top: 0;
+	}
+
+	/*section.contact*/
+	section.contact {
+		font-size: 16px;
+	}
+	.social .social_link {
+		width: 40px;
+		height: 40px;
+
+	}
+	.contact .social{
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+
+	.btn-up {
+		right: 5px;
+	}
+	.btn-up.active {
+		bottom: 100px;
+	}
+
+
+
 	
 }
 /* Extra Small Devices, Phones */

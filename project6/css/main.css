@@ -119,6 +119,7 @@ section.main {
 	border-radius: 1px;
 	width: 195px;
 	height: 144px;
+	z-index: 1;
 }
 .header-nav-drop-list li a{
 	color: #333333;
@@ -423,7 +424,7 @@ section.faqs {
 
 .faqs-wrap-content .about-text {
 	display: none;
-	padding: 0 5px;
+	padding: 0 10px 0 0;
 	margin: 30px 0 0 0;
 }
 
