@@ -7,6 +7,15 @@ $(document).ready(function() {
 	});
 	//main-about end
 
+	// Плавный переход по якорю
+	$(".header-nav").on("click","a", function (event) {
+		event.preventDefault();
+		var id  = $(this).attr('href'),
+		top = $(id).offset().top;
+		$('body,html').animate({scrollTop: top}, 1500);
+	});
+	// Плавный переход по якорю end
+
 
 
 	// bg-video
@@ -23,11 +32,7 @@ $(document).ready(function() {
 	// 	"loop": true
 	// });
 
-
 	// end-bg-video
-
-
-
 
 
 	// Аккордион
@@ -57,29 +62,55 @@ $(document).ready(function() {
 
   //end Аккордион
 
+	// slider
+	$('.testimonial_slider').slick({
+			arrows: false,
+			dots: true,
+		});
+	// slider end
 
-//carousel
 
-$(".owl-carousel").owlCarousel({
-	items: 4,
-	loop: true,
-	dots: false,
-	nav: false,
-	responsive: {
-		0:{
-			items: 1
-		},
-		600:{
-			items: 2
-		},
-		992:{
-			items: 3
-		},
-		1200:{
-			items: 4
-		}
-	}
-});
+  //carousel
+
+  $(".owl-carousel").owlCarousel({
+  	items: 4,
+  	loop: true,
+  	dots: false,
+  	nav: false,
+  	responsive: {
+  		0:{
+  			items: 1
+  		},
+  		600:{
+  			items: 2
+  		},
+  		992:{
+  			items: 3
+  		},
+  		1200:{
+  			items: 4
+  		}
+  	}
+  });
+
+  // btn-up
+  $('.btn-up').on('click', function(event) {
+  	event.preventDefault();
+  	$('html,body').animate({'scrollTop': 0}, 1000);
+  });
+
+  $(window).scroll(function() {
+  	if ($(window).scrollTop() >200 ) {
+  		$('.btn-up').addClass('active');
+  	} 
+  	else {
+  		$('.btn-up').removeClass('active');
+  	}
+  });
+    // btn-up end
+
+
+
 
 
 });
