@@ -24,6 +24,9 @@
 		padding: 0 30px;
 		height: 100px;
 	}
+	.main-form {
+		margin: 0 30px;
+	}
 
 	.logo {
 		font-size: 40px;
@@ -77,6 +80,8 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	/*main*/
+
+
 
 	.header-nav-drop-list {
 		padding: 10px 20px ;
@@ -247,6 +252,9 @@
 	.main header {
 		height: 70px;
 
+	}
+	.main-form {
+		margin: 0;
 	}
 	.logo {
 		font-size: 17px;
