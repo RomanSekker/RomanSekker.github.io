@@ -35,8 +35,11 @@
 		height: 125px;
 	}
 	.main-heading {
-		margin-top: 140px;
-		margin-bottom: 110px;
+		margin-top: 70px;
+		margin-bottom: 60px;
+	}
+	.main-form {
+		margin-bottom: 0;
 	}
 	h1 {
 		font-size: 100px;
@@ -72,6 +75,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	/*main*/
+
 	.header-nav-drop-list {
 		padding: 10px 20px ;
 		width: 160px;
@@ -130,6 +134,7 @@
 	.feature-content {
 		margin-bottom: 25px;
 	}
+
 	
 	.bg-man-block img{
 		max-width: 330px;
@@ -147,6 +152,9 @@
 	/*advantages */
 	.advantages, .team, .blog  {
 		padding-bottom: 50px;
+	}
+	.advantages-icon-number {
+		margin-left: 0px;
 	}
 	section.advantages h5 {
 		margin: 15px 0;
@@ -223,10 +231,20 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	#myVideo  {
+		height: 560px;
+		bottom: auto;
+		min-height: auto;
+	}
+	section.main {
+		min-height: 0;
+		height: 560px;
+	}
 
 	/*main*/
 	.main header {
 		height: 70px;
+
 	}
 	.logo {
 		font-size: 17px;
@@ -258,7 +276,6 @@
 	}
 	.main-form {
 		font-size: 14px;
-		margin-bottom: 100px;
 	}
 
 	.main-form input {
@@ -562,6 +579,10 @@
 	.copyright {
 		font-size: 12px;
 		margin-bottom: 20px;
+	}
+
+	.map-icon {
+		font-size: 50px;
 	}
 
 

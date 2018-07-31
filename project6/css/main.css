@@ -19,10 +19,10 @@
 #myVideo {
 	position: absolute;
 	right: 0;
-	bottom: 0;
 	min-width: 100%;
 	min-height: 100%;
 }
+
 
 
 body {
@@ -49,7 +49,6 @@ body {
 
 section.main {
 	min-height: 100vh;
-	margin: 0 auto;
 	color: #fff;
 	padding: 0;
 }
