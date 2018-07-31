@@ -16,6 +16,10 @@
 
 @media only screen and (max-width : 1200px) {
 	/*main*/
+
+	#myVideo, section.main {
+		min-height: 820px;
+	}
 	.main header {
 		padding: 0 30px;
 		height: 100px;
@@ -38,9 +42,7 @@
 		margin-top: 70px;
 		margin-bottom: 60px;
 	}
-	.main-form {
-		margin-bottom: 0;
-	}
+	
 	h1 {
 		font-size: 100px;
 	}
@@ -425,6 +427,11 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	/*main*/
+
+	#myVideo, section.main {
+		height: 460px;
+	}
+
 	.logo {
 		margin: 0 auto;
 	}
@@ -434,6 +441,9 @@
 		-ms-flex-wrap: wrap;
 		-o-flex-wrap: wrap;
 		flex-wrap: wrap;
+	}
+	.header-nav {
+		margin: auto;
 	}
 	.header-nav-main-list {
 		font-size: 11px;
