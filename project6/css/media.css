@@ -210,7 +210,7 @@
 	}
 	.work-order-second {
 		order: 2;
-		height: 400px;
+		/*height: 400px;*/
 	}
 
 	.work-text {
@@ -567,7 +567,7 @@
 	}
 
 	.work-order-second {
-		height: 216px;
+		/*height: 216px;*/
 	}
 
 	.blog-wrap {
@@ -666,7 +666,7 @@
 	}
 
 	.work-order-second {
-		height: 203px;
+		/*height: 203px;*/
 	}
 	.blog-wrap {
 		height: 154px;	
