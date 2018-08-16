@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'CormorantInfant-LightItalic';
+	src: url('../fonts/CormorantInfant-LightItalic/CormorantInfant-LightItalic.eot');
+	src: url('../fonts/CormorantInfant-LightItalic/CormorantInfant-LightItalic.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/CormorantInfant-LightItalic/CormorantInfant-LightItalic.woff') format('woff'),
+		 url('../fonts/CormorantInfant-LightItalic/CormorantInfant-LightItalic.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'CormorantInfant-Bold';
+	src: url('../fonts/CormorantInfant-Bold/CormorantInfant-Bold.eot');
+	src: url('../fonts/CormorantInfant-Bold/CormorantInfant-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/CormorantInfant-Bold/CormorantInfant-Bold.woff') format('woff'),
+		 url('../fonts/CormorantInfant-Bold/CormorantInfant-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: 'CormorantInfant-SemiBoldItalic';
+	src: url('../fonts/CormorantInfant-SemiBoldItalic/CormorantInfant-SemiBoldItalic.eot');
+	src: url('../fonts/CormorantInfant-SemiBoldItalic/CormorantInfant-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/CormorantInfant-SemiBoldItalic/CormorantInfant-SemiBoldItalic.woff') format('woff'),
+		 url('../fonts/CormorantInfant-SemiBoldItalic/CormorantInfant-SemiBoldItalic.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PTSansBold';
+	src: url('../fonts/PTSansBold/PTSansBold.eot');
+	src: url('../fonts/PTSansBold/PTSansBold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/PTSansBold/PTSansBold.woff') format('woff'),
+		 url('../fonts/PTSansBold/PTSansBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PTSansRegular';
+	src: url('../fonts/PTSansRegular/PTSansRegular.eot');
+	src: url('../fonts/PTSansRegular/PTSansRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/PTSansRegular/PTSansRegular.woff') format('woff'),
+		 url('../fonts/PTSansRegular/PTSansRegular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+} 
+
+@font-face {
+	font-family: 'ProximaNovaRegular';
+	src: url('../fonts/ProximaNovaRegular/ProximaNovaRegular.eot');
+	src: url('../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/ProximaNovaRegular/ProximaNovaRegular.woff') format('woff'),
+		 url('../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+} 

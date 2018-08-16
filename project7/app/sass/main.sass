@@ -1,0 +1,424 @@
+/*header*/
+body
+	background: url(../img/articles-bg.jpg) repeat
+
+.header
+	background-color: #fff
+
+h2
+	color: #262626
+	font-size: 36px
+	font-family: 'CormorantInfant-Bold'
+	margin-top: 37px
+	margin-bottom: 11px
+
+.header-text
+	color: #595959
+	font-family: 'CormorantInfant-LightItalic'
+	font-size: 16px
+	line-height: 24px
+	margin-bottom: 45px
+
+
+.header-nav
+	border-top: 1px solid #e6e6e6
+
+.header-nav__list
+	display: -webkit-flex
+	display: -moz-flex
+	display: -ms-flex
+	display: -o-flex
+	display: flex
+	justify-content: space-between
+	margin-top: 22px
+	margin-bottom: 23px
+	li a
+		color: #262626
+		font-size: 16px
+		line-height: 24px
+		font-family: 'PTSansRegular'
+		text-transform: uppercase
+		text-decoration: none
+
+.header-nav__list li a.active
+		color: #48974c 
+
+
+/*slider*/
+
+.slider 
+	background: url(../img/slider-bg.jpg)
+	-webkit-background-size: cover
+	background-size: cover
+	height: 579px
+
+.slider-wrap
+	padding: 35px 35px 46px
+	margin-top: 80px
+	background-color: #fff
+
+	h1
+		font-size: 60px
+		line-height: 60px
+		color: #404040
+		font-family: 'CormorantInfant-Bold'
+		padding-right: 40px
+
+	p
+		font-family: 'PTSansRegular'
+		font-size: 18px
+		line-height: 28px
+		margin-top: 15px
+
+
+.slick-dots
+	position: absolute
+	bottom: -30px
+
+.slick-dots li.slick-active button
+	background-color: #fff
+
+.slick-dots li button 
+	width: 13px
+	height: 13px
+	background-color: #ccd3dd
+
+
+// articles
+
+
+.atricle-wrap
+	margin-top: 30px
+	padding: 25px
+	background-color: #fff
+	>img
+		margin-bottom: 22px
+		width: 100%
+
+	.article-date
+		color: #a6a6a6
+		font-size: 14px
+		line-height: 26px
+		text-transform: uppercase
+		font-family: 'PTSansRegular'
+		display: flex
+		align-items: center
+		>img
+			margin-right: 10px
+
+	h3
+		color: #262626
+		font-size: 30px
+		font-family: 'CormorantInfant-SemiBoldItalic'
+		margin-top: 20px
+		margin-bottom: 10px
+
+	.article-text
+		font-family: 'PTSansRegular'
+		font-size: 16px
+		line-height: 26px
+		margin-bottom: 20px
+		color: #737373
+		height: 155px
+		overflow: hidden
+		text-overflow: ellipsis
+		margin-right: 5px
+
+	>div
+		display: flex
+		justify-content: space-between
+		align-items: center
+		
+		.article-link
+			color: #48974c
+			font-size: 14px
+			border: 1px solid #48974c
+			text-transform: uppercase
+			padding: 20px 0
+			text-decoration: none
+			width: 157px
+			text-align: center
+			font-family: 'PTSansBold'
+
+
+.social
+	display: flex
+	.social_link
+		color: #ccc
+		margin-left: 24px
+		font-size: 18px
+		&:hover
+			color: #48974c
+
+
+
+
+.articles-magrin-top
+	margin-top: 30px
+
+
+.articles-left-wrap
+	padding: 25px 25px 21px 25px
+	background-color: #fff
+	border-bottom: 1px solid #e6e6e6
+	border-right: 1px solid #e6e6e6
+
+	img
+		width: 100%
+
+	h4
+		color: #262626
+		font-size: 24px
+		line-height: 26px
+		margin-top: 14px
+		margin-bottom: 6px
+		font-family: 'CormorantInfant-SemiBoldItalic'
+
+	.article-text
+		color: #737373
+		font-size: 16px
+		line-height: 26px
+		padding-right: 30px
+		height: 80px
+		overflow: hidden
+		text-overflow: ellipsis
+
+	div > a.article-link
+		color: #48974c
+		font-size: 12px
+		text-transform: uppercase
+		text-decoration: none
+		display: flex
+		align-items: center
+		margin-top: 17px
+		
+		.link-arrow
+			display: inline-block
+			border-radius: 50%
+			width: 16px
+			height: 16px
+			background-color: #48974c
+			margin-right: 10px
+			&::before
+				content: ''
+				display: inline-block
+				width: 7px
+				height: 7px
+				border-top: 2px solid #fff
+				border-right: 2px solid #fff
+				transform: rotate(45deg)
+				margin-left: 4px
+				margin-top: 4px
+
+
+.articles-right-wrap
+	border-right: none
+	border-left: 1px solid #e6e6e6
+
+.articles .no-padding
+	padding: 0
+	.articles-left-wrap:last-of-type
+		border-bottom: none
+
+
+.article-bottom-link
+	margin-top: 25px
+	padding-left: 40px
+
+	>a
+		color: #fff
+		font-size: 14px
+		text-transform: uppercase
+		padding: 21px 0
+		text-decoration: none
+		background-color: #48974c
+		font-family: 'PTSansBold'
+		width: 157px
+		text-align: center
+		display: block
+
+		&::after
+			content: ''
+			display: inline-block
+			width: 7px
+			height: 7px
+			border-top: 2px solid #fff
+			border-right: 2px solid #fff
+			transform: rotate(45deg)
+			margin-left: 10px
+			margin-bottom: 2px
+
+
+.article-pagination ul
+	display: flex
+	margin-top: 25px
+	align-items: center
+	font-family: 'PTSansRegular'
+
+	li
+		text-align: center
+		font-size: 16px
+		background-color: #fff
+		margin-right: 10px
+		&:last-of-type
+			margin-right: 0
+
+		a
+			width: 56px
+			color: #262626
+			padding-top: 20px
+			padding-bottom: 20px
+			display: block
+			text-decoration: none
+
+.article-pagination .prev,
+.article-pagination .next,
+.article-pagination .points
+	background-color: transparent
+	a
+		width: auto
+
+
+.article-pagination .prev
+	margin-right: 18px
+
+.article-pagination .next
+	margin-left: 8px
+
+.article-pagination	.current
+	color: #fff
+	background-color: #449653
+
+
+.prev .arrow-left, .next .arrow-right
+	width: 9px
+	height: 9px
+	border-top: 2px solid #b6b6b6
+	border-right: 2px solid #b6b6b6
+	transform: rotate(-135deg)
+	display: block
+
+.next .arrow-right
+	transform: rotate(45deg)
+	border-color: #606060
+
+
+// info
+
+.info
+	background: url(../img/info-bg.jpg) no-repeat
+	background-size: cover
+	height: 560px
+	margin: 70px 0
+	
+	.info-wrap
+		margin-top: 434px
+		display: flex
+		.info-text
+			color: #262626
+			font-size: 18px
+			font-family: 'PTSansRegular'
+			padding: 19px 0 19px 19px
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: center
+			width: 212px
+			background-color: #fff
+			flex: 1
+
+		.info-link
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			align-items: center
+			justify-content: center
+			color: #fff
+			font-size: 14px
+			text-transform: uppercase
+			text-decoration: none
+			width: 146px
+			text-align: center
+			background-color: #48974c
+
+// contacts
+
+.contacts
+	margin-bottom: 70px
+	.contacts-fb, .banner
+		color: #262626
+		font-size: 24px
+		font-family: 'CormorantInfant-SemiBoldItalic'
+		background-color: #fff
+		height: 261px
+	.contacts-fb
+		padding-top: 30px
+		padding-left: 34px
+		p
+			margin-bottom: 25px
+
+		
+
+	.banner
+		width: 100%
+		display: flex
+		align-items: center
+		justify-content: center
+		
+
+// footer
+
+.footer
+	color: #fff
+	background-color: #404040
+	padding-top: 45px
+	h2
+		color: #fff
+		margin: 0 0 15px
+
+	.footer-text
+		font-size: 16px
+		line-height: 24px
+		font-family: 'CormorantInfant-LightItalic'
+		width: 320px
+
+	.copyright
+		color: #999
+		font-size: 14px
+		line-height: 20px
+		font-family: 'PTSansRegular'
+		border-top: 1px solid #808080
+		padding-top: 16px
+		padding-bottom: 18px
+
+	.social
+		margin-top: 20px
+		justify-content: flex-end
+
+	.footer-counter
+		margin-top: 38px
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: flex-end
+
+	.footer-nav
+		padding-bottom: 60px
+	
+
+		.footer-nav__list
+			margin-left: 55px
+			margin-top: 10px
+			
+			li a
+				color: #fff
+				font-size: 16px
+				line-height: 34px
+				font-family: 'PTSansRegular'
+				text-transform: uppercase
